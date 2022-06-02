@@ -38,3 +38,10 @@
     font-size: 12px;
     font-weight: 400;
 }
+
+.cardProductCart button {
+    background-color: #F5F5F5;
+    border: none;
+    cursor: pointer;
+
+}

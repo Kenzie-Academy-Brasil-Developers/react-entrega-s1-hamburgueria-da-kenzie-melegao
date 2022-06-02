@@ -74,6 +74,8 @@
     margin-left: 16px;
     margin-right: 16px;
     margin-top: 16px;
+    justify-content: unset;
+
   }
 }
 
@@ -154,5 +156,6 @@
     margin-top: 30px;
     display: flex;
     gap: 65px;
+    justify-content: space-between;
   }
 }

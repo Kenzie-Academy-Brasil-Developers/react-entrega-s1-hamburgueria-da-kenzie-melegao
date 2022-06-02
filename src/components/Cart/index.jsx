@@ -1,4 +1,5 @@
 import CardCart from '../CardCart';
+import CartTotal from '../CartTotal';
 import './style.css';
 
 function Cart(props) {
@@ -24,7 +25,9 @@ function Cart(props) {
                     {props.currentSale.map((elem) =>
                         <CardCart key={elem.id} id={elem.id} currentSale={props.currentSale} name={elem.name} category={elem.category} image={elem.img} setCurrentSale={props.setCurrentSale}/>
                 )}
-                    
+                </div>
+                <div className='resumeCart'>
+                    <CartTotal currentSale={props.currentSale} setCurrentSale={props.setCurrentSale}/>
                 </div>
              </>)
             }
