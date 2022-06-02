@@ -1,0 +1,40 @@
+
+.cardProductCart {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardProductCart figure {
+    background-color: #E0E0E0;
+    width: 80px;
+    height: 80px;
+}
+
+.cardProductCart img {
+    max-width:80px;
+    max-height:80px;
+    width: auto;
+    height: auto;
+}
+
+.cardProductContent{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.cardProductCart h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.cardProductCart small {
+    color: #828282;
+    font-size: 12px;
+    font-weight: 400;
+}
